@@ -1,0 +1,109 @@
+# Environment variables and credentials
+.env
+credentials.txt
+*.key
+*.pem
+*.p12
+config.ini
+
+# Personal data and logs
+logs/
+data/
+results/
+backup_old_results/
+memory-bank/
+migration/
+*.log
+
+# Test results
+test_results_database.json
+passed_tests.json
+interrupted_ab_test_*.json
+*_test_*.json
+validation_report.json
+
+# Python cache and build
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*.orig
+
+# Personal shortcuts and executables
+*.lnk
+*.exe
+*.msi
+launch_bot.bat
+*.vbs
+
+# Reddit-specific personal data
+reddit_*.json
+moderation_*.json
+user_*.json
+
+# Personal directories and traces
+.trae/
+.cache/
+session_data/
+
+# Database files that might contain personal data
+*.db
+*.sqlite
+*.sqlite3
+
+# API response caches
+api_cache/
+cache/
+
+# Personal configuration overrides
+local_config.*
+personal_config.*

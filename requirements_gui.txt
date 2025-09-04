@@ -1,0 +1,12 @@
+# GUI Dependencies for Reddit Moderator Bot Desktop Application
+customtkinter>=5.2.0
+pyinstaller>=5.13.0
+pystray>=0.19.4
+pillow>=10.0.0
+
+# Core bot dependencies (from existing requirements)
+praw>=7.7.1
+requests>=2.31.0
+google-generativeai>=0.3.2
+python-dotenv>=1.0.0
+openai>=1.0.0
